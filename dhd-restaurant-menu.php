@@ -48,10 +48,12 @@ function restaurant_menu_install() {
 }
 require_once plugin_dir_path( __FILE__ ) . 'inc/class-restaurant-menu-manager.php';
 
+
 function run_restaurant_menu_manager() {
   $rmm = new Restaurant_Menu_Manager();
   $rmm->run();
 }
+
 run_restaurant_menu_manager();
 
 
