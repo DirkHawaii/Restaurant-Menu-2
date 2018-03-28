@@ -1,0 +1,96 @@
+/* RESTAURANT MENU ADMIN CSS */
+
+/* SORT ORDER EDITING PANELS */
+div#panel1 {display:normal;}   /*   Global Settings     */
+div#panel2 {display:none;}     /*   Tab Order           */
+div#panel3 {display:none;}     /*   Section Order       */
+div#panel4 {display:none;}     /*   Item Order          */
+
+#single-post-meta-manager-data { width:100%; }
+#single-post-meta-manager-data .key { font-weight:bold; }
+
+/* ADMIN CSS */
+
+/* MENU TABS */
+ul#menu_tab_list {list-style-type:none;margin:0px 0px 10px 0px;border:0px none #fff;padding:0px;}
+ul#menu_tab_list li {cursor:pointer;width:40%;background-color:#1D82B8;color:#F1F1F1;margin:5px;border:1px solid #282C31;border-radius:4px;padding:0.5rem 0.5rem;font-size:1.1rem;}
+ul#menu_tab_list > li > input[type=button] {cursor:pointer;font-size:0.7rem;margin:0;border:1px solid #282C31;border-radius:4px;padding:2px 4px;float:right;background-color:#000;color:#fff;}
+
+/* MENU ITEMS */
+ul#menu_item_list {list-style-type:none;margin:0px 0px 10px 0px;border:0px none #fff;padding:0px;}
+ul#menu_item_list li {cursor:pointer;width:40%;background-color:#1D82B8;color:#F1F1F1;margin:5px;border:1px solid #282C31;border-radius:4px;padding:0.5rem 0.5rem;font-size:1.1rem;}
+ul#menu_item_list > li > input[type=button] {cursor:pointer;font-size:0.7rem;margin:0;border:1px solid #282C31;border-radius:4px;padding:2px 4px;float:right;background-color:#000;color:#fff;}
+
+/*
+    
+
+*/
+.menu-section {
+  margin:0;
+  border:0;
+  padding:0.25rem 0rem;
+  }
+
+.menu-section-header {
+  margin:0 0.5rem;
+  border:1px solid #282C31;
+  border-radius:5px 5px 0 0;
+  padding:1rem 1rem;
+  position:relative;cursor:pointer;
+  background-color:#1D82B8;color:#F1F1F1;
+  font-size:1.2rem;font-weight:700;
+  }
+
+.menu-section-header input[type=button] {cursor:pointer;font-size:0.7rem;margin:0;border:1px solid #444;border-radius:4px;padding:2px 4px;float:right;background-color:#000;color:#fff;}
+
+.menu-section-content {
+  margin:0 0.5rem;
+  border:1px solid #282c31;
+  border-radius:0 0 5px 5px;
+  padding:0.4em;
+  background-color:#fff;}
+
+
+.menu-section-toggle {position:absolute;top:50%;right:0;margin-top:-8px;}
+.menu-section-placeholder {border:1px dotted black;margin:0 1em 1em 0;height:50px;}
+
+div#menu_wrap {
+  margin:10px;
+  box-sizing:inherit;
+  position:relative;
+  width:60%;
+
+}
+div#menu_wrap:after {content: "";display: table;clear: both;}
+.menu-column {}
+
+.col-md-12 {/*float:left;*/width:100%;margin:0;border:0;padding:0;}
+.col-md-6  {
+  position:relative;
+  width:50%;
+  min-height:50px;
+  box-sizing:inherit;
+  display:block;
+  float:left;
+  margin:0;
+  border:0;
+  padding:0px;
+  /*background-color:#789;*/
+  }
+.col-md-4  {float:left;width:33%; margin:0;border:0;padding:0;}
+.col-md-3  {float:left;width:25%; margin:0;border:0;padding:0;}
+
+div.ctrl-wrap  {width:100%;margin:0;border:0;padding:0;}
+div.ctrl-left  {width:100%;margin:0;border:0;padding:0;float:none;}
+div.ctrl-right {width:100%;margin:0;border:0;padding:0;float:none;}
+div.ctrl-wrap:after {content: "";display: table;clear: both;}
+
+div.bg1 {background-color:#F1F1F1;}
+div.bg2 {background-color:#F1F1F1;}
+
+
+
+
+
+
+
