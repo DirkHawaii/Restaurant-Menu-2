@@ -1,0 +1,5 @@
+# ignore admin/css/bootstrap.min.css
+admin/css/bootstrap.min.css
+
+# ignore admin/js/*.*
+admin/js/
